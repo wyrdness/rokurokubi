@@ -1,0 +1,339 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/rokurokubi",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "rokurokubi",
+    "name": "Rokurokubi",
+    "aliases": [
+      {
+        "name": "轆轤首",
+        "language": "Japanese",
+        "region": "Japan",
+        "meaning": "pulley neck"
+      },
+      {
+        "name": "Nukekubi",
+        "language": "Japanese",
+        "region": "Japan",
+        "meaning": "removable neck / detachable head"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Japanese Yokai",
+    "tags": [
+      "yokai",
+      "japanese",
+      "shapeshifter",
+      "transformation",
+      "nocturnal",
+      "cursed",
+      "human-like"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A Japanese yokai with an extending or detachable neck. Appears normal by day but at night either stretches their neck to great lengths (Rokurokubi) or detaches their head entirely (Nukekubi).",
+      "full": "The Rokurokubi is a fascinating Japanese yokai that exists in two distinct forms. The classic Rokurokubi appears as a normal human during the day, but at night their neck extends to extraordinary lengths, allowing their head to move independently while their body remains stationary. The Nukekubi variant is even more dramatic—their head detaches completely from the body and flies around at night. Many Rokurokubi are unaware of their condition, believing their nighttime activities to be mere dreams. Others are fully conscious and may be malicious, using their abilities to spy on people, drink lamp oil, frighten sleepers, or even drink blood. The Nukekubi face a unique vulnerability: if their body is moved or hidden while their head is detached, they will die. This condition is often explained as a curse or punishment for sins, particularly Buddhist transgressions. The Rokurokubi appears frequently in Edo period folklore and continues to be popular in modern Japanese media."
+    },
+    "etymology": {
+      "origin": "From Japanese folklore, particularly Edo period.",
+      "meaning": "'Rokuro' (轆轤) refers to a pulley or windlass, suggesting the extending neck motion. 'Kubi' (首) means neck or head. Nukekubi means 'removable neck' or '抜首' (nuke = pull out, kubi = neck/head)",
+      "first_use": "Edo period (1600-1868)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Cursed Human / Shapeshifter",
+      "variant": "Japanese"
+    },
+    "related_phenomena": [
+      {
+        "id": "penanggalan",
+        "name": "Penanggalan",
+        "relationship": "similar",
+        "description": "Malaysian detached head vampire"
+      },
+      {
+        "id": "manananggal",
+        "name": "Manananggal",
+        "relationship": "similar",
+        "description": "Filipino detached upper body vampire"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "types": [
+        {
+          "type": "Rokurokubi (stretching neck)",
+          "description": "Neck extends to great lengths but remains attached",
+          "day_appearance": "Completely normal human",
+          "night_transformation": "Neck stretches, head moves independently"
+        },
+        {
+          "type": "Nukekubi (detachable head)",
+          "description": "Head fully detaches from body",
+          "day_appearance": "Completely normal human",
+          "night_transformation": "Head separates and flies around"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Normal daytime appearance",
+          "description": "Appears as ordinary human during day",
+          "frequency": "always"
+        },
+        {
+          "feature": "Extended neck (Rokurokubi)",
+          "description": "Neck stretches to extraordinary lengths at night",
+          "frequency": "type_specific"
+        },
+        {
+          "feature": "Flying head (Nukekubi)",
+          "description": "Head detaches and flies independently",
+          "frequency": "type_specific"
+        },
+        {
+          "feature": "Human form",
+          "description": "Retains human appearance even during transformation",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Human by day; at night either extends neck dramatically while body remains still (Rokurokubi) or head detaches completely from body (Nukekubi)"
+    },
+    "abilities": [
+      {
+        "ability": "Neck extension (Rokurokubi)",
+        "description": "Can extend neck to great lengths, allowing head to move while body stays in place",
+        "frequency": "type_specific",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Head detachment (Nukekubi)",
+        "description": "Head separates from body and can fly around",
+        "frequency": "type_specific",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Spying",
+        "description": "Uses extended neck or flying head to spy on people",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Drinking oil",
+        "description": "Some drink lamp oil during nighttime activities",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Blood drinking",
+        "description": "Some malicious variants drink human blood",
+        "frequency": "rare",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Frightening",
+        "description": "May deliberately frighten sleeping people",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal transformation",
+      "disposition": "variable (some unaware, some harmless, some malicious)",
+      "awareness": "Many unaware of their condition, thinking nighttime activities are dreams",
+      "social_structure": "solitary, often live as normal humans",
+      "habitat_preference": [
+        "human settlements",
+        "homes",
+        "villages"
+      ],
+      "diet": "Normal human diet; some drink lamp oil or blood at night",
+      "patterns": [
+        "Normal human by day",
+        "Transformation occurs at night during sleep",
+        "Many unaware of their yokai nature",
+        "Some use abilities to spy or frighten",
+        "Nukekubi vulnerable if body moved while head detached"
+      ]
+    },
+    "vulnerabilities": [
+      {
+        "vulnerability": "Body relocation (Nukekubi only)",
+        "description": "If body is moved or hidden while head is detached, the Nukekubi will die",
+        "lethality": "fatal",
+        "frequency": "always_applicable"
+      }
+    ]
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore throughout Japan, particularly in Edo period literature.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan (folklore)"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Edo period (1600-1868)",
+        "circa": true,
+        "source": "Edo period literature and illustrated scrolls"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Japanese yokai tradition, particularly Edo period folklore. Often explained as curse or punishment for Buddhist transgressions or sins.",
+      "earliest_accounts": "Edo period literature, kaidan (ghost story) collections, illustrated scrolls.",
+      "folklore_connections": "Part of broader Japanese tradition of cursed humans and transformation yokai. Shares characteristics with Southeast Asian detached head creatures."
+    },
+    "timeline": [
+      {
+        "date": "1600-1868",
+        "event": "Edo period documentation",
+        "significance": "Rokurokubi and Nukekubi featured in kaidan collections and yokai illustrations",
+        "source": "Edo period literature"
+      },
+      {
+        "date": "Modern era",
+        "event": "Popular culture revival",
+        "significance": "Appears in manga, anime, games, and modern yokai collections",
+        "source": "Contemporary media"
+      }
+    ],
+    "modern_era": "The Rokurokubi remains popular in Japanese culture, appearing frequently in manga, anime, video games, and yokai-themed media. Often portrayed sympathetically as cursed individuals struggling with their condition."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Edo period kaidan (ghost stories)",
+        "Yokai folklore",
+        "Cursed human traditions"
+      ],
+      "stories": [
+        "Various Edo period kaidan featuring Rokurokubi",
+        "Tales of travelers encountering Rokurokubi at inns",
+        "Stories of Nukekubi whose bodies are hidden as revenge"
+      ],
+      "beliefs": "The Rokurokubi condition is often explained as a curse or punishment for sins, particularly Buddhist transgressions. Some traditions suggest it can be hereditary or the result of breaking religious vows.",
+      "symbolism": [
+        "Hidden nature and secret lives",
+        "Curse and punishment for sins",
+        "Duality of human existence",
+        "Buddhist consequences of transgression"
+      ]
+    },
+    "japanese_cultural_context": {
+      "significance": "Represents themes of hidden identity, curse, and the consequences of sin in Japanese Buddhist-influenced folklore.",
+      "sensitivity_note": "The Rokurokubi is part of traditional Japanese cultural heritage. Approach with respect for Japanese folklore traditions.",
+      "curse_origin": "Often attributed to punishment for Buddhist transgressions, breaking vows, or ancestral sins"
+    },
+    "popular_culture": {
+      "literature": [
+        "Edo period kaidan collections",
+        "Modern yokai anthologies"
+      ],
+      "anime_manga": [
+        "Numerous manga and anime featuring Rokurokubi characters",
+        "Monster Musume (manga/anime)",
+        "Various yokai-themed series"
+      ],
+      "games": [
+        "Various Japanese RPGs and games",
+        "Yokai Watch series",
+        "Nioh (video game)"
+      ],
+      "other": [
+        "Traditional Japanese art and woodblock prints",
+        "Yokai museum exhibits",
+        "Modern illustrations and media"
+      ]
+    }
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "Curse for Buddhist transgressions",
+        "description": "The condition results from punishment for breaking Buddhist precepts or vows",
+        "evidence_cited": ["Traditional attribution to sin", "Buddhist moral framework"]
+      },
+      {
+        "name": "Hereditary curse",
+        "description": "Some traditions suggest the condition can be inherited from cursed ancestors",
+        "evidence_cited": ["Family curse narratives", "Generational patterns in stories"]
+      }
+    ],
+    "comparative": [
+      {
+        "name": "Southeast Asian connection",
+        "description": "Similarities to Penanggalan (Malaysian) and Manananggal (Filipino) suggest possible cultural exchange or parallel development",
+        "evidence_cited": ["Similar detached head motif", "Geographic proximity", "Regional folklore patterns"]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Sleep disorder metaphor",
+        "description": "May represent sleep disorders, sleepwalking, or dissociative experiences",
+        "evidence_cited": ["Unawareness of nighttime activities", "Dream-like quality", "Activities during sleep"]
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-yokai",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "yokai-attack",
+      "type": "book",
+      "title": "Yokai Attack! The Japanese Monster Survival Guide",
+      "authors": ["Hiroko Yoda", "Matt Alt"],
+      "publication": "Tuttle Publishing",
+      "date": "2008",
+      "isbn": "978-4805310359"
+    },
+    {
+      "id": "reider-yokai",
+      "type": "book",
+      "title": "Japanese Demon Lore: Oni from Ancient Times to the Present",
+      "authors": ["Noriko T. Reider"],
+      "publication": "Utah State University Press",
+      "date": "2010",
+      "isbn": "978-0874218169"
+    }
+  ]
+}
