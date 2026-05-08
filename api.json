@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/rokurokubi",
     "maintainers": [
       {
@@ -16,72 +16,123 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "rokurokubi",
-    "name": "Rokurokubi (轆轤首)",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "2: Nukekubi (Detachable Head)",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Rokurokubi",
+    "aliases": [
+      { "name": "轆轤首", "language": "Japanese", "meaning": "pulley neck; neck that extends like a rotating mechanical device" },
+      { "name": "ろくろ首", "language": "Japanese", "meaning": "Hiragana form of the same name" },
+      { "name": "Nukekubi", "language": "Japanese", "meaning": "detachable head; a related subtype whose head fully separates from the body" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yōkai / shape-shifting spirit",
+    "tags": [
+      "japanese",
+      "yokai",
+      "shape-shifter",
+      "nocturnal",
+      "humanoid",
+      "elongating-neck",
+      "detachable-head",
+      "folklore",
+      "east-asia"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The **Rokurokubi** is a fascinating Japanese yokai that exists in **two distinct forms**, both involving transformation of the neck and head:",
-      "full": "The **Rokurokubi** is a fascinating Japanese yokai that exists in **two distinct forms**, both involving transformation of the neck and head:"
+      "summary": "A rokurokubi is a Japanese yōkai that appears nearly human but possesses a neck that stretches to extraordinary lengths; a related subtype called nukekubi has a head that fully detaches and floats independently at night.",
+      "full": "Rokurokubi (轆轤首) are yōkai from Japanese folklore appearing in two distinct forms. The first and more common form has a human appearance by day but at night the neck elongates to fantastic lengths, allowing the head to roam while the body remains stationary. The second form, often treated as a separate creature called nukekubi (抜け首), involves the head fully detaching from the body and flying independently, sometimes drinking the blood of victims. Classical accounts note a visible line around the neck of nukekubi where separation occurs. The creature's vulnerability lies in this detachment: if the body is moved while the head is absent, the head cannot rejoin and will perish at dawn. Yōkai researcher Tada Katsumi has argued these stories arrived in Japan during the Muromachi to Azuchi-Momoyama periods (roughly 14th–16th centuries CE) through trade contacts with southern China and Southeast Asia, where analogous floating-head spirits exist. Japan's subsequent isolationist Edo period allowed uniquely Japanese variants to develop. The rokurokubi appears across multiple Edo-period literary collections and is one of the most widely recognized yōkai in classical Japanese art."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese, derived from rokuro (轆轤), a term for rotating or extending mechanical devices such as a potter's wheel, a well pulley, or the winding mechanism of an umbrella handle.",
+      "meaning": "The neck (kubi, 首) that extends or rotates like a mechanical pulley (rokuro, 轆轤).",
+      "first_use": "Documented in illustrated yōkai collections of the Edo period (1603–1868); notable appearances in Sorori Monogatari (1663) and Shokoku Hyaku Monogatari (1677)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "2: Nukekubi (Detachable Head)",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yōkai",
+      "subtype": "Shape-shifting humanoid spirit",
+      "variant": "Japanese"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "penanggalan", "name": "Penanggalan", "relationship": "similar", "description": "Malaysian flying-head spirit with trailing viscera; believed to share a common origin tradition with nukekubi" },
+      { "id": "krasue", "name": "Krasue", "relationship": "similar", "description": "Thai floating head with glowing organs; closely analogous nocturnal blood-drinking spirit" },
+      { "id": "manananggal", "name": "Manananggal", "relationship": "similar", "description": "Philippine self-segmenting vampire creature that separates at the torso" },
+      { "id": "leyak", "name": "Leyak", "relationship": "similar", "description": "Balinese floating-head spirit associated with black magic" },
+      { "id": "hitōban", "name": "Hitōban (飛頭蛮)", "relationship": "related", "description": "Chinese flying-head barbarian creature considered a likely precursor to the Japanese rokurokubi tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Human appearance by day", "description": "Rokurokubi are indistinguishable from ordinary humans in daylight; they live among people and are only revealed at night", "frequency": "always" },
+        { "feature": "Elongating neck", "description": "At night the neck stretches to extraordinary lengths, allowing the head to travel far from the body while the torso remains still", "frequency": "always" },
+        { "feature": "Detachable head (nukekubi subtype)", "description": "In the nukekubi variant, the head fully separates from the body, often marked by a visible circular line around the neck", "frequency": "common" },
+        { "feature": "Nocturnal transformation", "description": "The supernatural transformation occurs at night; some accounts suggest it is involuntary and the creature is unaware of its own nature", "frequency": "always" },
+        { "feature": "Normal human form", "description": "During the day the rokurokubi retains a completely normal human form with no visible abnormalities", "frequency": "always" }
+      ],
+      "morphology": "Entirely human in appearance; the distinguishing anatomical feature only manifests at night. In nukekubi the detachment line around the neck may be visible as a faint mark even during the day in some accounts."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Neck elongation", "description": "The neck can stretch to great lengths at night, enabling the head to travel while the body remains stationary", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Head detachment and flight", "description": "Nukekubi variant can separate the head entirely from the body; the head floats and navigates independently", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Blood drinking", "description": "Nukekubi are described as attacking and drinking the blood of sleeping victims", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Camouflage among humans", "description": "Both forms pass as ordinary humans during daylight hours, allowing them to live undetected in communities", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["human settlements", "villages", "forests near inhabited areas"],
+      "diet": "Nukekubi variant described as drinking blood of sleeping victims; the elongating-neck type is sometimes portrayed as simply curious rather than predatory",
+      "patterns": [
+        "Transformation occurs at night, reverting to human form by dawn",
+        "Often live secretly among ordinary humans, unaware or concealing their nature",
+        "Nukekubi heads must return to and rejoin the body before sunrise or perish",
+        "Moving the body while the head is away prevents reunion and is the primary means of defeating a nukekubi"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A creature of Japanese folklore, with analogous traditions distributed across East and Southeast Asia, suggesting shared or parallel origin traditions.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["All regions of Japan historically; origin traditions also present in China and Southeast Asia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1663",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Sorori Monogatari (1663); Shokoku Hyaku Monogatari (1677)"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603–1868)", "description": "Primary period of textual and artistic documentation of rokurokubi in Japanese literature and yōkai collections" }
+      ],
+      "seasonal_patterns": "No specific seasonal pattern documented; nocturnal activity is consistent across accounts."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese yōkai tradition. Yōkai researcher Tada Katsumi has argued the floating-head concept arrived in Japan from southern China and Southeast Asia during the Muromachi to Azuchi-Momoyama periods (14th–16th centuries), when Japan still maintained active trade with those regions. Subsequent Edo-period isolation allowed a distinctly Japanese form to evolve.",
+      "earliest_accounts": "Documented in Edo-period literary collections. The Sorori Monogatari (1663) and Shokoku Hyaku Monogatari (1677) contain notable accounts. The Kasshi Yawa (c. 1821) includes further documentation.",
+      "folklore_connections": "Connected to a broader pan-Asian family of flying or detachable-head spirits: the Chinese Hitōban (飛頭蛮), Malaysian Penanggalan, Thai Krasue, Philippine Manananggal, Indonesian Palasik/Kuyang/Leyak, and South American Chonchon are all considered analogous or related traditions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1663", "event": "Sorori Monogatari published, containing a notable rokurokubi account", "significance": "One of the earliest documented literary references", "source": "Sorori Monogatari (1663)" },
+      { "date": "1677", "event": "Shokoku Hyaku Monogatari published with rokurokubi accounts", "significance": "Part of the flowering of Edo-period kaidan (ghost story) literature", "source": "Shokoku Hyaku Monogatari (1677)" },
+      { "date": "1821", "event": "Kasshi Yawa (c. 1821) records further rokurokubi encounters", "significance": "Late Edo documentation showing the legend's persistence", "source": "Kasshi Yawa (c. 1821)" }
+    ],
+    "modern_era": "The rokurokubi remains one of the most widely recognized yōkai in Japanese popular culture, appearing in contemporary manga, anime, video games, and folklore reference works. Toriyama Sekien's influential 18th-century yōkai encyclopaedias helped fix the creature's visual iconography."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +143,126 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "rokurokubi-evidence-sorori",
+        "type": "archive",
+        "name": "Sorori Monogatari (1663)",
+        "date": "1663",
+        "description": "Edo-period literary collection containing early rokurokubi accounts.",
+        "status": "verified",
+        "analysis": "One of the oldest textual sources for the rokurokubi legend in its Japanese form.",
+        "source": "Sorori Monogatari (1663)"
+      },
+      {
+        "id": "rokurokubi-evidence-shokoku",
+        "type": "archive",
+        "name": "Shokoku Hyaku Monogatari (1677)",
+        "date": "1677",
+        "description": "Edo-period collection of one hundred ghost stories, including rokurokubi accounts.",
+        "status": "verified",
+        "analysis": "Part of the kaidan (ghost story) literary tradition of the Edo period.",
+        "source": "Shokoku Hyaku Monogatari (1677)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Southeast Asian import via trade routes",
+        "description": "Yōkai researcher Tada Katsumi argues the rokurokubi concept arrived in Japan from southern China and Southeast Asia during the Muromachi–Azuchi-Momoyama periods through active trade. The pan-Asian distribution of detachable-head spirits supports cultural diffusion rather than independent invention.",
+        "proponents": ["Tada Katsumi"],
+        "evidence_cited": ["Parallel creatures across Southeast Asia (Penanggalan, Krasue, Manananggal, Leyak)", "Chinese Hitōban as possible prototype", "Historical trade records of the period"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folklore and sleep paralysis",
+        "description": "Some researchers interpret rokurokubi and nukekubi legends as cultural expressions of sleep paralysis, somnambulism, or nocturnal anxiety — the 'wandering' head representing the feared dissociation of consciousness from the body during sleep.",
+        "proponents": ["Folklore studies consensus"],
+        "evidence_cited": ["Accounts describe victims attacked during sleep", "Somnambulism is listed in some accounts as a marker of the creature", "Cross-cultural prevalence of nocturnal head-spirit traditions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Edo-period kaidan (ghost story) literary tradition",
+        "Toriyama Sekien's yōkai encyclopaedias (18th century)",
+        "Oral tradition across Japan"
+      ],
+      "stories": [
+        "Accounts in Sorori Monogatari (1663) of encountering a rokurokubi woman",
+        "Shokoku Hyaku Monogatari (1677) ghost story collections",
+        "Kasshi Yawa (c. 1821) documented encounters"
+      ],
+      "beliefs": "The rokurokubi occupies a complex position in Japanese yōkai taxonomy — sometimes portrayed as actively malevolent (nukekubi drinking blood), sometimes as a cursed or unconscious being unaware of its own transformation. The creature reflects Edo-period anxieties about the hidden nature of those who appear human."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Lafcadio Hearn, Kwaidan: Stories and Studies of Strange Things (1904) — includes rokurokubi story"
+      ],
+      "film_tv": [
+        "Various Japanese horror and anime productions feature rokurokubi"
+      ],
+      "games": [
+        "Little Nightmares 2 — enemy design inspired by rokurokubi",
+        "Pokémon — Misdreavus and Mismagius designs draw on the concept",
+        "Yo-kai Watch — rokurokubi appears as a named yo-kai character"
+      ],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Tada Katsumi", "affiliation": "Yōkai studies (Japan)", "contribution": "Argued for Southeast Asian and Chinese origins of the rokurokubi through Muromachi-period trade contacts", "period": "Modern" },
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period artist and scholar", "contribution": "Illustrated yōkai encyclopaedias (Gazu Hyakki Yagyō series, 1776–1784) that codified the visual form of rokurokubi", "period": "1776–1784" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Rokurokubi is a subject of ongoing study in Japanese folklore, yōkai studies, and comparative mythology examining pan-Asian floating-head traditions."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-rokurokubi",
+      "type": "website",
+      "title": "Rokurokubi",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rokurokubi",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "hearn-1904",
+      "type": "book",
+      "title": "Kwaidan: Stories and Studies of Strange Things",
+      "authors": ["Lafcadio Hearn"],
+      "publication": "Houghton Mifflin",
+      "date": "1904"
+    },
+    {
+      "id": "sorori-1663",
+      "type": "archive",
+      "title": "Sorori Monogatari",
+      "date": "1663",
+      "notes": "Edo-period Japanese literary collection containing early rokurokubi accounts"
+    },
+    {
+      "id": "shokoku-1677",
+      "type": "archive",
+      "title": "Shokoku Hyaku Monogatari",
+      "date": "1677",
+      "notes": "Edo-period collection of one hundred ghost stories"
+    }
+  ]
 }
